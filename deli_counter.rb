@@ -5,7 +5,7 @@ def line(arr)
   else
   output = "The line is currently: "
   arr.each_with_index { |item, index| 
-  output << "#{index + 1}. #{item} " }
+  output << " #{index + 1}. #{item}" }
   
   puts output
   
